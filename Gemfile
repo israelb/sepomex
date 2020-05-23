@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 
 gem 'rack', '~> 1.5.2'
-gem 'puma'
+gem 'puma', '>= 3.12.6'
 gem 'grape', '~> 0.9.0'
 gem 'activerecord', '~> 4.1.6', require: 'active_record'
 gem 'grape-activerecord'
